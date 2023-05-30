@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decodificador de Texto</title>
+  
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Decodificador de Texto | Challenge ONE</h1>
+  </header>
+
+  <main>
+    <form>
+
+   <div class="caixas">
+    <div class="caixa">
+      <label for="texto">Digite seu texto aqui:</label>
+      <textarea id="texto" cols="40" rows="10" class="input-padrao" required></textarea>
+      <button type="button" class="enviar" onclick="encriptador()">Encriptografar</button>
+      <textarea id="mensagemEncriptada" cols="40" rows="10" class="resposta" readonly></textarea>
+     </div>
+
+     <div class="caixa">
+      <label for="texto">Digite o texto criptografado:</label>
+      <textarea id="textoEncriptado" cols="40" rows="10" class="input-padrao" required></textarea>
+      <button type="button" class="enviar" onclick="descriptador()">Descriptografar</button>
+      <textarea id="textoDescriptografado" cols="40" rows="10" class="resposta" readonly></textarea>
+     </div>
+   </div>
+
+      <script src="./assets/javascript/funcoes.js"></script>
+
+      
+    </form>
+  </main>
+  
+  <footer>
+    <img src="./assets/imagens/logoAlura.png">
+    <p> Desenvolvedor: Reunilson B</p>
+</footer>
+
+</body>
+</html>
